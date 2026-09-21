@@ -14,7 +14,7 @@ hardware was.
 
 ## Download
 
-**[Releases](../../releases)** → `PDP-8 Chess.zip`. Unzip it anywhere.
+**[Releases](../../releases)** → `PDP8-Chess.zip`. Unzip it anywhere.
 Windows, no install, nothing written outside the folder, no internet.
 
 ## Two ways to run them

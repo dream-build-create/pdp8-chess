@@ -17,7 +17,7 @@ hardware was.
 **[Releases](../../releases)** → `PDP8-Chess.zip`. Unzip it anywhere.
 Windows, no install, nothing written outside the folder, no internet.
 
-## Two ways to run them
+## Different ways to run them
 
 **Double-click** `CLASH for the PDP-8.exe` or `CHEKMO-II for the PDP-8.exe`.
 A window opens and you are at the program's own Teletype, exactly as in 1974
@@ -34,6 +34,19 @@ choose "Play with a friend" and enter
 [PDP8-CLASH](https://lichess.org/@/PDP8-CLASH) or
 [PDP8-CHEKMO](https://lichess.org/@/PDP8-CHEKMO) as the friend. They accept
 five-minute games and slower, with a few exceptions listed in `README.txt`.
+
+**In a browser**, on Folke Will's PDP-8 at [pdp8.app](https://pdp8.app),
+with nothing to install. Download `CLASH.BN` from the release, then:
+
+1. Load Snippet → BIN loader
+2. Expand Reader & Punch on the PT08
+3. Load the `CLASH.BN` tape
+4. Set the reader ON
+5. Set the baud rate to 2400 or so, for faster loading
+6. Toggle 7777, Load Add, Start, and let the BIN loader read the tape
+7. When the Run lamp goes out, toggle 0200, Load Add, Start
+
+Instructions courtesy of Folke Will.
 
 ## What is in the repository
 

@@ -36,6 +36,11 @@ CLASH
     PO   the permanent brain on or off. It is on: CLASH thinks on your time.
     EB   early bail-out on or off (stop when the next depth cannot finish)
 
+To stop self-play, press any key. CLASH finishes the move it is thinking about,
+then returns to the prompt in PN mode. The board is kept:
+PW and PB resume self-play from there, and RE starts a new game.
+Restarting at 0200 after a HALT is not supported; reload CLASH.BN. 
+
 CHEKMO-II
 
   Type moves as E2E4 and MV for CHEKMO to reply; PW / PB make it play a
